@@ -1,3 +1,12 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bebas-neue-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 
 /* open-sans-regular - latin */
 @font-face {
@@ -7,6 +16,7 @@
   font-weight: 400;
   src: url('../fonts/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* open-sans-italic - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -15,6 +25,7 @@
   font-weight: 400;
   src: url('../fonts/open-sans-v35-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* open-sans-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -25,90 +36,125 @@
 }
 
 
-h1{
+
+
+body {
+    margin: 0;
+    background: url(../img/intro-bg.jpg)no-repeat center;
+    background-size:cover;
+    font-family: 'Open Sans';
+    height: 769px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+
+p {
+  margin: 0 0 10px;
+}
+
+
+
+*,*:before, *:after {
     box-sizing: border-box;
 }
 
-*,*:before,*:after{
-    box-sizing: inherit;
+
+
+
+
+.wrapper {
+     padding-top: 40px;
+     margin: 0 auto;
+     max-width: 1440px;
+     width: 100%;
 }
 
 
 
-body{
-    background: url(../img/intro-bg.jpg)no-repeat center;
-    background-size: cover;
-    font-family: 'open-sans';
-    height: 100vh;
+
+
+.wrapper_top {
+    margin-bottom: 318px;
 }
 
 
 
-.header{
-   margin: 0 auto;
-   max-width: 100%;
-}
 
-
-
-.wrapper{
-  margin-top: 40px;
-
-}
-
-
-.header_logo{
+.wrapper_logo {
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-.header_title{
+
+
+
+.wrapper_title {
     text-align: center;
-    margin-top: 318px;
 }
 
 
-.header_title h1{
-    font-family: 'BebasNeueBold';
+
+
+.wrapper_title-lait {
+    font-family: 'Bebas Neue';
     font-size: 60px;
     line-height: 70px;
     letter-spacing: 5.70937px;
     color: #FFFFFF;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 
-.header_tex{
-    text-align: center;
-    margin-top: -21px;
+
+
+
+.wrapper_text{
+     text-align: center;
+     margin-bottom: 210px;
 }
 
 
-.header_tex p{
-/*    font-family: 'OpenSans';*/
+
+
+.wrapper_text-lait{
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
 }
 
 
-.header_tex a{
+
+.wrapper_text-lait:last-child{
+     margin: 0;
+}
+
+
+
+
+.wrapper_text-row{
     text-decoration: none;
 }
 
 
-.header_tex p:hover{
-    color: darkolivegreen;
-}
 
 
-.header_scrool{
+.wrapper_scrool{
     text-align: center;
-    margin-top: 221px;
+    margin-bottom: 70px;
 }
 
 
-.header_scrool p{
+
+
+.wrapper_scrool-lait{
+    cursor: pointer;
     font-size: 11px;
     line-height: 13px;
     color: #FFFFFF;
@@ -116,43 +162,75 @@ body{
 }
 
 
-.block{
-    padding-bottom: 50px;
+
+.wrapper_scrool-lait:last-child{
+    margin: 0;
 }
 
 
 
-.block_bottom{
+
+.header {
+    background: #fff;
+}
+
+
+
+
+.header_inner {
+    padding: 25px 0px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
     justify-content: space-around;
-}
-
-.block_list{
-    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #E6E6E6;
 }
 
 
-.block_item{
+
+
+.nav {
+    display: flex;
+}
+
+
+
+
+.nav_link {
     margin-right: 30px;
-    list-style: none;
-}
-
-
-.block_item:last-child{
-    margin-right: 0;
-}
-
-
-
-.block_link{
-    font-size: 12px;
-    line-height: 14px;
     letter-spacing: 1.09091px;
     color: #48555B;
+    line-height: 14px;
+    font-size: 12px;
     text-decoration: none;
 }
 
 
+
+
+.nav_link:last-child{
+     margin-right: 0;
+}
+
+
+
+
+
+.nav_link.active{
+    color: #00A4E5;
+}
+
+
+
+
+.nav_link.active:hover {
+    opacity: 0.50;
+}
+
+
+
+
+.nav_link:hover{
+     color: #00A4E5;
+     transition: .1s linear;
+}

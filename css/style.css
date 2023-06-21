@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 p {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
 }
 
 
@@ -79,7 +79,7 @@ p {
 
 
 .wrapper_top {
-    margin-bottom: 318px;
+     margin-bottom: 318px;
 }
 
 
@@ -95,7 +95,7 @@ p {
 
 
 .wrapper_title {
-    text-align: center;
+     text-align: center;
 }
 
 
@@ -139,26 +139,26 @@ p {
 
 
 .wrapper_text-row{
-    text-decoration: none;
+     text-decoration: none;
 }
 
 
 
 
 .wrapper_scrool{
-    text-align: center;
-    margin-bottom: 70px;
+     text-align: center;
+     margin-bottom: 70px;
 }
 
 
 
 
 .wrapper_scrool-lait{
-    cursor: pointer;
-    font-size: 11px;
-    line-height: 13px;
-    color: #FFFFFF;
-    letter-spacing: 3.7px;
+     cursor: pointer;
+     font-size: 11px;
+     line-height: 13px;
+     color: #FFFFFF;
+     letter-spacing: 3.7px;
 }
 
 

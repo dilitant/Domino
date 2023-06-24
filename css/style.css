@@ -60,7 +60,7 @@ p {
 
 
 
-.wrapper {
+.header {
      padding-top: 40px;
      margin: 0 auto;
      max-width: 1440px;
@@ -71,14 +71,14 @@ p {
 
 
 
-.wrapper_top {
+.header_work {
      margin-bottom: 318px;
 }
 
 
 
 
-.wrapper_logo {
+.header_logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,14 +87,14 @@ p {
 
 
 
-.wrapper_title {
+.header_title {
      text-align: center;
 }
 
 
 
 
-.wrapper_title-lait {
+.header_title-lait {
     font-family: 'Bebas Neue';
     font-size: 60px;
     line-height: 70px;
@@ -108,7 +108,7 @@ p {
 
 
 
-.wrapper_text{
+.header_text {
      text-align: center;
      margin-bottom: 210px;
 }
@@ -116,7 +116,7 @@ p {
 
 
 
-.wrapper_text-lait{
+.header_text-lait {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
@@ -124,21 +124,21 @@ p {
 
 
 
-.wrapper_text-lait:last-child{
+.header_text-lait:last-child {
      margin: 0;
 }
 
 
 
 
-.wrapper_text-row{
+.header_text-row {
      text-decoration: none;
 }
 
 
 
 
-.wrapper_scrool{
+.header_scrool {
      text-align: center;
      margin-bottom: 70px;
 }
@@ -146,7 +146,7 @@ p {
 
 
 
-.wrapper_scrool-lait{
+.header_scrool-lait {
      cursor: pointer;
      font-size: 11px;
      line-height: 13px;
@@ -156,21 +156,21 @@ p {
 
 
 
-.wrapper_scrool-lait:last-child{
+.header_scrool-lait:last-child {
     margin: 0;
 }
 
 
 
 
-.header {
+.navbar {
     background: #fff;
 }
 
 
 
 
-.header_inner {
+.navbar_inner {
     padding: 25px 0px;
     display: flex;
     justify-content: space-around;
@@ -201,7 +201,7 @@ p {
 
 
 
-.nav_link:last-child{
+.nav_link:last-child {
      margin-right: 0;
 }
 
@@ -224,6 +224,6 @@ p {
 
 
 .nav_link:hover{
-     color: #00A4E5;
-     transition: .1s linear;
+    color: #00A4E5;
+    transition: .1s linear;
 }

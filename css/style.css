@@ -32,28 +32,28 @@
 
 
 body {
-    margin: 0;
-    background: url(../img/intro-bg.jpg)no-repeat center;
-    background-size:cover;
-    font-family: 'Open Sans';
-    height: 769px;
+     margin: 0;
+     background: url(../img/intro-bg.jpg)no-repeat center;
+     background-size: cover;
+     font-family: 'Open Sans';
+     max-height: 769px;
 }
 
 
 
 h1,h2,h3,h4,h5,h6 {
-    margin: 0;
+     margin: 0;
 }
 
 
 p {
-    margin: 0 0 10px;
+     margin: 0 0 10px;
 }
 
 
 
 *,*:before, *:after {
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 
@@ -61,7 +61,7 @@ p {
 
 
 .header {
-     padding-top: 40px;
+     padding-top: 41px;
      margin: 0 auto;
      max-width: 1440px;
      width: 100%;
@@ -72,7 +72,7 @@ p {
 
 
 .header_work {
-     margin-bottom: 318px;
+     margin-bottom: 305px;
 }
 
 
@@ -82,6 +82,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -95,13 +96,13 @@ p {
 
 
 .header_title-lait {
-    font-family: 'Bebas Neue';
+    cursor: pointer;
     font-size: 60px;
     line-height: 70px;
     letter-spacing: 5.70937px;
     color: #FFFFFF;
     font-weight: 400;
-    cursor: pointer;
+    font-family: 'Bebas Neue';
 }
 
 
@@ -110,16 +111,18 @@ p {
 
 .header_text {
      text-align: center;
-     margin-bottom: 210px;
+     margin-bottom: 221px;
 }
 
 
 
 
 .header_text-lait {
-    font-size: 16px;
-    line-height: 19px;
+    line-height: normal;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -140,7 +143,7 @@ p {
 
 .header_scrool {
      text-align: center;
-     margin-bottom: 70px;
+     margin-bottom: 67px;
 }
 
 
@@ -149,9 +152,10 @@ p {
 .header_scrool-lait {
      cursor: pointer;
      font-size: 11px;
-     line-height: 13px;
+     line-height: normal;
      color: #FFFFFF;
      letter-spacing: 3.7px;
+     font-weight: 600;
 }
 
 
@@ -165,18 +169,19 @@ p {
 
 .navbar {
     background: #fff;
+    margin-bottom: 57px;
 }
 
 
 
 
 .navbar_inner {
-    padding: 25px 0px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     border: 1px solid #E6E6E6;
+    padding: 25px 0;
 }
 
 
@@ -190,11 +195,12 @@ p {
 
 
 .nav_link {
-    margin-right: 30px;
+    margin-right: 42px;
     letter-spacing: 1.09091px;
     color: #48555B;
-    line-height: 14px;
+    line-height: normal;
     font-size: 12px;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -209,8 +215,9 @@ p {
 
 
 
-.nav_link.active{
+.nav_link.active {
     color: #00A4E5;
+    font-weight: 700;
 }
 
 
@@ -223,7 +230,199 @@ p {
 
 
 
-.nav_link:hover{
+.nav_link:hover {
     color: #00A4E5;
     transition: .1s linear;
 }
+
+
+
+
+.section {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+    max-width: 941px;
+}
+
+
+
+
+.about_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+.about_title {
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+
+
+
+
+.about_title:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.about_title-row {
+    margin-bottom: 10px;
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.306px;
+}
+
+
+
+
+
+
+.about_content {
+    max-width: 405px;
+}
+
+
+
+
+
+.about_content_row {
+    margin-bottom: 30px;
+    color: #48555B;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.188px;
+}
+
+
+
+
+span.colorit {
+    color: #00A4E5;
+    transition: .1s linear;
+}
+
+
+
+
+
+
+span.colorit:hover {
+    opacity: 0.50;
+}
+
+
+
+
+
+.about_text {
+   max-width: 405px;
+}
+
+
+
+
+
+.about_text_row {
+    letter-spacing: 0.188px;
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+
+
+
+
+.about_foto {
+    position: relative;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.about_img {
+    padding-left: 20px;
+    transition: transform .2s linear;
+}
+
+
+
+
+
+
+.about_foto:hover .about_img {
+    transform: translate3d(-10px,-10px,0);
+}
+
+
+
+
+
+
+.about_img:hover {
+    opacity: 0.50;
+    transition: .2s linear;
+}
+
+
+
+
+
+.about_foto.profi {
+     padding-left: 50px;
+     max-width: 100%;
+     height: auto;
+     display: block;
+}
+
+
+
+
+
+.about_name {
+    position: absolute;
+    display: block;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+    top: 18px;
+    z-index: 2;
+    padding-left: 35px;
+}
+
+
+
+
+.about_name:hover {
+    opacity: 0.50;
+    transition: .2s linear;
+}
+
+
+
+
+
+

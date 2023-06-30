@@ -63,7 +63,7 @@ p {
 .header {
      padding-top: 41px;
      margin: 0 auto;
-     max-width: 1440px;
+     max-width: 1438px;
      width: 100%;
 }
 
@@ -72,7 +72,7 @@ p {
 
 
 .header_work {
-     margin-bottom: 305px;
+     margin-bottom: 310px;
 }
 
 
@@ -82,7 +82,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -98,10 +97,11 @@ p {
 .header_title-lait {
     cursor: pointer;
     font-size: 60px;
-    line-height: 70px;
+    line-height: 1;
     letter-spacing: 5.70937px;
     color: #FFFFFF;
     font-weight: 400;
+    font-style: normal;
     font-family: 'Bebas Neue';
 }
 
@@ -121,7 +121,7 @@ p {
     line-height: normal;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -143,7 +143,7 @@ p {
 
 .header_scrool {
      text-align: center;
-     margin-bottom: 67px;
+     margin-bottom: 71px;
 }
 
 
@@ -156,6 +156,7 @@ p {
      color: #FFFFFF;
      letter-spacing: 3.7px;
      font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -258,7 +259,6 @@ p {
 
 
 
-
 .about_title {
     text-align: center;
     margin-bottom: 92px;
@@ -280,17 +280,15 @@ p {
 
 
 
-
-
 .about_title-row {
     margin-bottom: 10px;
     color: #48555B;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2.306px;
+    line-height: normal;
+    font-style: normal;
 }
-
-
 
 
 
@@ -302,13 +300,14 @@ p {
 
 
 
-
 .about_content_row {
     margin-bottom: 30px;
     color: #48555B;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.188px;
+    line-height: normal;
+    font-style: normal;
 }
 
 
@@ -345,6 +344,8 @@ span.colorit:hover {
     color: #48555B;
     font-size: 13px;
     line-height: 23px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 

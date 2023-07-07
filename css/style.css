@@ -32,30 +32,30 @@
 
 
 body {
-     margin: 0;
-     background: url(../img/intro-bg.jpg)no-repeat center;
-     background-size: cover;
-     font-family: 'Open Sans';
-     max-height: 769px;
+		margin: 0;
+		background: url(../img/intro-bg.jpg)no-repeat center;
+		background-size: cover;
+		font-family: 'Open Sans';
+		max-height: 769px;
 }
 
 
 
 h1,h2,h3,h4,h5,h6 {
-     margin: 0;
+		margin: 0;
 }
 
 
 
 p {
-     margin: 0 0 10px;
+		margin: 0 0 10px;
 }
 
 
 
 
 *,*:before, *:after {
-     box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 
@@ -113,8 +113,8 @@ p {
 
 
 .header_text {
-     text-align: center;
-     margin-bottom: 221px;
+		text-align: center;
+		margin-bottom: 221px;
 }
 
 
@@ -265,25 +265,25 @@ p {
 
 
 .about:after {
-	content: '';
-	display: block;
-	width: 50px;
-	height: 2px;
-	background-color: #00A4E5;
-	margin: 0 auto;
+		content: '';
+		display: block;
+		width: 50px;
+		height: 2px;
+		background-color: #00A4E5;
+		margin: 0 auto;
 }
 
 
 
 
 .about_title {
-	margin-bottom: 10px;
-	color: #48555B;
-	font-size: 18px;
-	font-weight: 700;
-	letter-spacing: 2.306px;
-	line-height: normal;
-	font-style: normal;
+		margin-bottom: 10px;
+		color: #48555B;
+		font-size: 18px;
+		font-weight: 700;
+		letter-spacing: 2.306px;
+		line-height: normal;
+		font-style: normal;
 }
 
 
@@ -362,10 +362,24 @@ span.colorit:hover {
 
 
 
-.about_foto {
-    position: relative;
-    margin-bottom: 120px;
-    margin-top: 25px;
+.about_cart {
+		position: relative;
+		margin: 25px 0 120px;
+}
+
+
+
+
+
+.about_cart.profi {		
+		padding-left: 50px;
+}
+
+
+
+
+.about_cart:hover .about_img {
+	  transform: translate3d(-5px, -5px, 0);
 }
 
 
@@ -373,16 +387,11 @@ span.colorit:hover {
 
 
 .about_img {
-    margin-left: 20px;
-    transition: transform .2s linear;		
-}
-
-
-
-
-
-.about_foto:hover .about_img {
-    transform: translate3d(-10px,-10px,0);
+    margin-left: 20px;   	
+		display: block;	
+		max-width: 100%;
+		height: auto;
+		transition: transform .2s linear;	
 }
 
 
@@ -392,18 +401,7 @@ span.colorit:hover {
 
 .about_img:hover {
     opacity: 0.50;
-    transition: .2s linear;
-}
-
-
-
-
-
-.about_foto.profi {
-     padding-left: 50px;
-     max-width: 100%;
-     height: auto;
-     display: block;
+    transition: .1s linear;
 }
 
 
@@ -418,7 +416,7 @@ span.colorit:hover {
     font-weight: 800;
     line-height: 29px;
     letter-spacing: 0.188px;
-    top: 18px;
+    top: 18px;		
     z-index: 2;		
     padding-left: 35px;
 }
@@ -427,12 +425,11 @@ span.colorit:hover {
 
 
 
+
 .about_name:hover {
-    opacity: 0.50;
-    transition: .2s linear;
+		opacity: 0.50;
+		transition: .2s linear;
 }
-
-
 
 
 

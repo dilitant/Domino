@@ -1,11 +1,5 @@
-/* bebas-neue-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/bebas-neue-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+
+
 
 
 /* open-sans-regular - latin */
@@ -31,12 +25,26 @@
 
 
 
-body {
-		margin: 0;
-		background: url(../img/intro-bg.jpg)no-repeat center;
+/* bebas-neue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bebas-neue-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+body {		
+	  margin: 0;
+		background: url(../img/intro-bg.jpg);
 		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 		font-family: 'Open Sans';
-		max-height: 769px;
+		height: 769px;		
 }
 
 
@@ -66,7 +74,7 @@ p {
 		padding-top: 41px;
 		margin: 0 auto;
 		max-width: 1438px;
-		width: 100%;
+		width: 100%;		
 }
 
 
@@ -74,7 +82,7 @@ p {
 
 
 .header_work {
-     margin-bottom: 310px;
+     margin-bottom: 300px;
 }
 
 
@@ -100,7 +108,7 @@ p {
 .header_title-lait {
     cursor: pointer;
     font-size: 60px;
-    line-height: 1;
+    line-height: normal;
     letter-spacing: 5.70937px;
     color: #FFFFFF;
     font-weight: 400;
@@ -114,7 +122,7 @@ p {
 
 .header_text {
 		text-align: center;
-		margin-bottom: 221px;
+		margin-bottom: 214px;
 }
 
 
@@ -147,7 +155,7 @@ p {
 
 .header_subtext {
      text-align: center;
-     margin-bottom: 71px;
+     padding-bottom: 71px;
 }
 
 
@@ -175,7 +183,7 @@ p {
 
 .navbar {
     background: #fff;
-    margin-bottom: 57px;
+    padding-bottom: 57px;
 }
 
 
@@ -364,7 +372,8 @@ span.colorit:hover {
 
 .about_cart {
 		position: relative;
-		margin: 25px 0 120px;
+		margin-top: 25px;
+		padding-bottom: 119px;
 }
 
 
@@ -372,7 +381,7 @@ span.colorit:hover {
 
 
 .about_cart.profi {		
-		padding-left: 50px;
+		margin-left: 60px;
 }
 
 
@@ -396,6 +405,19 @@ span.colorit:hover {
 
 
 
+.about_cart.profi .about_img:first-child {
+	 margin-left: 0;	
+}	
+
+
+
+
+.about_cart.profi .about_name{
+	  position: absolute;
+		left: 15px;
+}
+
+
 
 
 
@@ -417,8 +439,8 @@ span.colorit:hover {
     line-height: 29px;
     letter-spacing: 0.188px;
     top: 18px;		
-    z-index: 2;		
-    padding-left: 35px;
+    z-index: 1;		
+    left: 35px;
 }
 
 
@@ -430,7 +452,6 @@ span.colorit:hover {
 		opacity: 0.50;
 		transition: .2s linear;
 }
-
 
 
 

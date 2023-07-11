@@ -61,6 +61,20 @@ p {
 
 
 
+ul,li {
+	list-style: none;
+}
+
+
+
+
+a {
+  text-decoration: none;
+	color: inherit;
+}
+
+
+
 
 *,*:before, *:after {
 		box-sizing: border-box;
@@ -299,6 +313,7 @@ p {
 
 
 .about_item {	  
+	  padding-bottom: 118px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -372,8 +387,7 @@ span.colorit:hover {
 
 .about_cart {
 		position: relative;
-		margin-top: 25px;
-		padding-bottom: 119px;
+		margin-top: 25px;		
 }
 
 
@@ -412,7 +426,7 @@ span.colorit:hover {
 
 
 
-.about_cart.profi .about_name{
+.about_cart.profi .about_name {
 	  position: absolute;
 		left: 15px;
 }
